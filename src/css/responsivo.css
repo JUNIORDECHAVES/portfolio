@@ -18,6 +18,10 @@
         align-items: center;
     }
 
+    .itens__skill .skills {
+        justify-content: space-around;
+    }
+
     .projetos .container-projetos {
         padding: 0 30px;
     }
@@ -36,6 +40,11 @@
 
     .home .container-foto img {
         max-width: 320px;
+    }
+
+    .itens__skill .skills {
+        flex-direction: column;
+        gap: 20px;
     }
 
     .projetos {
